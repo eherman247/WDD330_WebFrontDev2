@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/week2.css"/>
+</head>
+<body>
+
+    <h3>Class Notes</h3>
+    <ul>
+        <li>local storage: Anything can be put it. A variable, or even a JSON file</li>
+            <ul>ex. let age = 53;</ul>
+            <ul>localStorage.setItem("age", age);</ul>
+            <ul>let yourAge = localStorage.getItem("age");</ul>
+        <li>hoisting: The program will run through the code first, and
+            throw to the top certain things. ie: This makes it so 
+            the function can be called at any point in the code.
+        </li>
+    </ul>
+
+
+    <main>
+        <!-- <form> -->
+            <div>
+                <!-- for is looking at the id of input -->
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <button>Save</button>
+            </div>
+            <div id="output">
+
+            </div>
+        <!-- </form> -->
+    </main>
+    
+
+    <script src="scripts/week2.js"></script>
+</body>
+</html>
